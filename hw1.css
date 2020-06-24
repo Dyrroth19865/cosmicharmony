@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 800px){
+@media (min-width: 365px) and (max-width: 750px){
 	/* The body should have padding and margin */
 	body {
 		padding: 1%; 
@@ -7,7 +7,7 @@
 
 	/* The header should have a background color, background image (using a local image), and padding */ 
 	header {
-		background: #C0C0C0; /* Silver */
+		background: #C0C0C0;
 		background-image: url("../images/flywheel.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%; 
@@ -20,8 +20,8 @@
 	}
 
 	nav a {
-		background-color: rgba(218,234,213,0.60);
-		color: #000000; /* Black */
+		background-color: rgba(214,224,223,0.60);
+		color: #000000;
 		display: inline-block;
 		padding: 10px;
 		margin: 1%; 
@@ -31,23 +31,23 @@
 
 	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
 	.active {
-		background: #FFFFFF; /* White */
+		background: #FFFFFF; 
 	}
 
 	/* h1 elements should be centered and have a new font color */
 	h1 {
-		color: #FFFFFF; /* White */
+		color: #FFFFFF; 
 		text-align: center;
 		text-transform: uppercase;
 		font-family: "Trebuchet MS", Helvetica, sans-serif; 
-		font-size: 25px;
+		font-size: 21px;
 		position: relative;
 		top: -10px;
 	}
 
 	/* h2 elements have a new font color */
 	h2 {
-		color: #000000; /* Black */
+		color: #000000;
 		text-transform: uppercase; /* style headings to have uppercase text */
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 12px;
@@ -55,16 +55,16 @@
 
 	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
 	.left {
-		background: #808000; /* Olive */ 
-		width: 22%;
+		background: #808000; 
+		width: 23%;
 		float: left;
 		padding: 5% 0; 
 		
 	}
 
 	.left img {
-		border: solid 2px #000000; /* Black */
-		width: 80%;
+		border: solid 2px #000000;
+		width: 78%;
 		margin-left: 10%;
 		margin-right: 10%;
 		margin-top: 15%;
@@ -84,19 +84,19 @@
 	a {
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 
 	p {
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
-		font-size: 11px;
+		font-size: 12px;
 	}
 
 	/* The table should be styled using at least four properties */
 	table {
 	    border-collapse: collapse;
-   		width: 285px;
+   		width: 275px;
    		font-family: "Times New Roman", Times, serif;
    		font-weight: bold;
    		font-size: 50%;
@@ -104,9 +104,9 @@
 
 	/* The table headings should have a border, background color, and at least one other image */
 	th {
-		background: #808000; /* Olive */
-		color: #FFFFFF; /* White */
-	    border: 2px solid #FFFFFF; /* White */
+		background: #808000; 
+		color: #FFFFFF;
+	    border: 2px solid #FFFFFF;
 		background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/03/olive-green-parchment-paper-texture.jpg');
    		background-repeat: no-repeat;
 	}
@@ -114,8 +114,8 @@
 
 	/* The table elements <td> should be styled using at least four properties */
 	td {
-		background: #E0FFFF; /* LightCyan */
-		color: #808080; /* Gray */
+		background: #E0FFFF; 
+		color: #808080; 
 		border: 2px solid #FFFFFF;
 		text-align: center;
 	}
@@ -153,7 +153,7 @@
 
 	/* The header should have a background color, background image (using a local image), and padding */ 
 	header {
-		background: #C0C0C0; /* Silver */
+		background: #C0C0C0;
 		background-image: url("../images/flywheel.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%; 
@@ -167,7 +167,7 @@
 
 	nav a {
 		background-color: rgba(218,234,213,0.60);
-		color: #000000; /* Black */
+		color: #000000;
 		display: inline-block;
 		padding: 15px;
 		margin: 5%; 
